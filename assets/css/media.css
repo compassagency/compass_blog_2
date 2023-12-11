@@ -1,0 +1,85 @@
+@media (max-width: 1024px) {
+	 .header__nav {
+		display: none;
+	 }
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+   .top-nav {
+		display: none;
+	 }
+	 .top-logo {
+		justify-content: space-between;
+		width: 100%;
+	 }
+
+	 .breadcrumbs {
+		display: none;
+	 }
+	 .page-title h1 {
+		font-size: 32px;
+	 }
+
+	 .article__preview__desc {
+		font-size: 24px;
+	 }
+	 .article__interview {
+		padding: 1rem;
+	 }
+	 .main .question {
+		font-size: 18px;
+	 }
+	 .main .answer {
+		font-size: 16px;
+	 }
+	 .main p {
+		font-size: 16px;
+	 }
+	 .main .quote {
+		font-size: 20px;
+	 }
+	 .main-form {
+		grid-template-columns: 1fr;
+	 }
+	 #comments_component .component_info_inner {
+		padding: 1rem;
+	 }
+	 .block__right {
+		padding: 0;
+	 }
+
+	.comment-form {
+		flex-direction: column;
+	}
+
+	.comment-form__avatar {
+		margin: 0 0 24px;
+	}
+
+	.comment-form__actions {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.comment-form__upload {
+		margin-bottom: 20px;
+	}
+
+	.comment-form__submit {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	 
+	.article_info {
+		flex-direction: column;
+	}
+	.thanks-page .card {
+		padding: 1rem;
+		margin: 1rem;
+	}
+}
